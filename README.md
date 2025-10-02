@@ -21,5 +21,11 @@ Run the following command from the directory containing the priv.pem file.<br>
 yubico-piv-tool -s 9c -a import-key -A ED25519 -i priv.pem --touch-policy always --pin-policy always
 ```
 
-This repo is based on the work done by akonior here - https://github.com/akonior/yubikey-cardano-wallet/blob/main/yubikey_load_keys.sh
+This repo is based on the work done by akonior here - https://github.com/akonior/yubikey-cardano-wallet/blob/main/yubikey_load_keys.sh - this work has a catalyst proposal that deserves funding in Catalyst 14 or support for the research undertaken. 
+
+This extension adds support for yubico-piv-tool, mnemonics, and pycardano transaction building. 
+
+Using a BIP39 mnemonic with a passphrase ensures that if the yubikey is broken or lost the key can be easily regenerated. It also gives the additional bonus that a leaked seephrase will not compromise a wallet without the passphrase also being leaked. 
+
+This hardware wallet has been tested on mainnet and testnet for regular transactions and has been integrated into stealthWallet for an accessible UI for wallet management, transactions and direct DEX integration. 
 
