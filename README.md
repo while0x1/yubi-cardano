@@ -4,6 +4,9 @@ Using yubico's own yubico-piv-tool you can sign cardano transaction body hashs g
 
 Add the yubico-piv-tool repository to the linux advanced package tool to retrieve the latest yubico-piv-tool, or make it from source to ensure you have yubico-piv-tool >= version 2.7.
 
+```bash
+pip install near-api-py cryptography base58
+
 sudo add-apt-repository ppa:yubico/stable   
 
 run the gen_bundle.py file to create your keys.
