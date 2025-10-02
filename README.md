@@ -21,7 +21,7 @@ Run the following command from the directory containing the priv.pem file.<br>
 yubico-piv-tool -s 9c -a import-key -A ED25519 -i priv.pem --touch-policy always --pin-policy always
 ```
 
-This repo is based on the work done by akonior here - https://github.com/akonior/yubikey-cardano-wallet/blob/main/yubikey_load_keys.sh this work has a catalyst proposal that deserves funding in Catalyst 14 or support for the research undertaken. 
+This repo is based on the work done by akonior here - [https://github.com/akonior/yubikey-cardano-wallet/blob/main/yubikey_load_keys.sh](https://github.com/akonior/yubikey-cardano-wallet/tree/main) this work has a catalyst proposal that deserves funding in Catalyst 14 or support for the research undertaken. 
 
 This extension adds support for yubico-piv-tool, mnemonics, and pycardano transaction building. 
 
