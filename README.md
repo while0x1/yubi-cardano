@@ -12,7 +12,7 @@ It is recommended to do this on an air gapped machine.
 
 load your priv.pem from the generated keys into the yubikey using the yubico-piv-tool CLI commands.
 
-Run the following command from the directory containing the priv.pem file.
+Run the following command from the directory containing the priv.pem file.<br>
 yubico-piv-tool -s 9c -a import-key -A ED25519 -i priv.pem --touch-policy always --pin-policy always
 
 
