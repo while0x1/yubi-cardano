@@ -2,7 +2,7 @@ yubikeys with firmware => 5.7 support signing raw binaries with ED25519 keys sto
 
 Using yubico's own yubico-piv-tool you can sign cardano transaction body hashs giving cardano users access to a cheap, ubiquitous hardware wallet option.
 
-Add the yubico-piv-tool repository to the linux advanced package tool to retrieve the latest yubico-piv-tool, or make it from source to ensure you have yubico-piv-tool >= version 2.7.
+Add the yubico-piv-tool repository to the linux advanced package tool to retrieve the latest yubico-piv-tool, or build it from source to ensure you have yubico-piv-tool >= version 2.7.
 
 ```bash
 sudo add-apt-repository ppa:yubico/stable   
